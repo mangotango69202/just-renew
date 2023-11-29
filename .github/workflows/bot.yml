@@ -1,6 +1,7 @@
 name: Auto Commit
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
